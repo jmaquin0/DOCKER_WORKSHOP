@@ -36,11 +36,11 @@ A successfull docker installation can be tested in two ways:
 
 1. On a terminal execute  `docker -v` or `docker --version` you should get an output like:
 
-![output version](http://imgur.com/EUKqOL2l.png)
+![output version](http://i.imgur.com/EUKqOL2l.png)
 
 2. On a terminal execute: `docker run hello-world` (in linux, the command would be: `sudo docker run hello-world` ) you should get an output like:
 
-![ouput hello world](https://examples.javacodegeeks.com/wp-content/uploads/2016/11/01-docker-run-hello-world-2.jpg)
+![ouput hello world](https://i.imgur.com/ZuDMpbY.png)
 
 
 ## Using an interactive container
