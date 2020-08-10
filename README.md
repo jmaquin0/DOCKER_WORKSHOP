@@ -30,6 +30,8 @@ First of all you need to install Docker, the steps will depend on your OS:
 
 The installation on Linux has variations according to the distribution,  there is an [installation page](https://docs.docker.com/engine/install/) with instructions for the more pupular distributions.
 
+After the installations you should run some [configuration steps](https://docs.docker.com/engine/install/linux-postinstall/) to secure your docker execution
+
 ## Testing the installation
 
 A successfull docker installation can be tested in two ways:
@@ -38,11 +40,12 @@ A successfull docker installation can be tested in two ways:
 
 ![output version](http://i.imgur.com/EUKqOL2l.png)
 
-2. On a terminal execute: `docker run hello-world` (in linux, the command would be: `sudo docker run hello-world` ) you should get an output like:
+2. On a terminal execute: `docker run hello-world` you should get an output like:
 
-![ouput hello world](https://i.imgur.com/ZuDMpbY.png)
+![output hello-world](https://i.imgur.com/sDAHnAC.png)
 
 
 ## Using an interactive container
 
-Now let's use an interactive nodeJs container, for this we will use the command:  `docker run -it node` (in linux, the command would be: `sudo docker run -it node` )
+Now let's use an interactive nodeJs container, for this we will use the command:  `docker run -it node`. There is an example of couple of code lines.
+![output interactive node](https://i.imgur.com/vBHibYM.png)
